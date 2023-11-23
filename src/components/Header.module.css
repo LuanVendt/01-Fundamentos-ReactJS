@@ -8,4 +8,7 @@
 .header img {
   height: 2rem; /* 32px */
 }
- 
+
+.header h1 {
+  padding-left: 1rem;
+}

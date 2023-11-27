@@ -23,7 +23,7 @@ const posts = [
         id: 2,
         author: {
             avatarUrl: 'https://github.com/giovanademiranda.png',
-            name: 'Giovana',
+            name: 'Giovana Miaranda',
             role: 'Estagiária',
         },
         content: [
@@ -31,10 +31,9 @@ const posts = [
             { type: 'paragraph', content: 'Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀'},
             { type: 'link', content: 'jane.design/doctorcare' }, 
         ],
-        publishedAt: new Date('2023-11-30 17:00:00'),
+        publishedAt: new Date('2023-11-28 17:00:00'),
     },
 ]
-
 
 export function App() {
   return (
@@ -46,7 +45,7 @@ export function App() {
         <main>
         {posts.map(post => {
             return (
-                <Post 
+                <Post
                     author={post.author}
                     content={post.content}
                     publishedAt={post.publishedAt}
